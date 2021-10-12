@@ -1,13 +1,28 @@
+html {
+    font-size: 16px;
+}
+
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     line-height: 1.5;
     background-color: lightgray;
     background-image: url("../images/white_brick_wall.jpg"); /* ../ is a way of saying go back in your file explorer */
+    background-repeat: no-repeat;
+    background-position: 10px 20px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
 }
 
 .bolded {
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .uppercase {
