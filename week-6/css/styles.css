@@ -2,6 +2,8 @@ body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
     line-height: 1.5;
+    background-color: lightgray;
+    background-image: url("../images/white_brick_wall.jpg"); /* ../ is a way of saying go back in your file explorer */
 }
 
 .bolded {
