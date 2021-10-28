@@ -1,6 +1,7 @@
 html {
     font-size: 16pt;
     background-color:#add4cf;
+    box-sizing: border-box;
 }
 
 body {
@@ -8,12 +9,13 @@ body {
     font-size: 16pt;
     line-height: 1.5;
     background-color:#D4E9E7;
+    width: 1000px;
 }
 
 header {
     background-image: url("../images/lone-starfish-wide.jpg");
     background-repeat: no-repeat;
-    height: 80vh; /* height is even so the star stays centered */
+    height: 60vh; /* height is even so the star stays centered */
     background-size:cover;
     background-position: center;
 }
@@ -23,6 +25,7 @@ h1 {
     font-weight: lighter;
     text-align: center;
     font-size: 3rem;
+    line-height: 11;
 }
 
 
@@ -46,5 +49,5 @@ h2 {
 
 img {
     float:left;
-    
+    padding:20px;
 }
