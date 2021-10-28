@@ -9,7 +9,7 @@ body {
     font-size: 16pt;
     line-height: 1.5;
     background-color:#D4E9E7;
-    width: 1000px;
+    width: 1500px;
 }
 
 header {
@@ -25,10 +25,13 @@ h1 {
     font-weight: lighter;
     text-align: center;
     font-size: 3rem;
-    line-height: 11;
+    line-height: 12;
 }
 
+nav li{
+    display: inline;
 
+}
 
 a:link {
     text-decoration: none;
