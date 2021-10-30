@@ -10,6 +10,7 @@ body {
     line-height: 1.5;
     background-color:#D4E9E7;
     width: 1500px;
+    position:relative;
 }
 
 header {
@@ -28,8 +29,11 @@ h1 {
     line-height: 12;
 }
 
-nav li{
+nav li {
     display: inline;
+    font-size: 1.5rem;
+    padding-right: 9rem;
+    padding-left: 8rem;
 
 }
 
@@ -42,8 +46,10 @@ a:visited {
     color: black;
 }
 
-h2 {
+#story {
     font-weight: bold;
+    padding-left: 20px;
+    font-size: 2rem;
 }
 
 .container {
@@ -53,4 +59,13 @@ h2 {
 img {
     float:left;
     padding:20px;
+    height: 10rem;
+}
+
+p {
+    padding-right: 20px;
+}
+
+#facts, #contact {
+    padding-left: 20px;
 }
