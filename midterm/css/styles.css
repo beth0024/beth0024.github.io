@@ -12,7 +12,6 @@ body {
     width: 1500px;
     position:relative;
     margin-left: 9rem;
-    margin-top: 0 auto;
 }
 
 header {
@@ -77,4 +76,3 @@ p {
     padding: 1rem;
     margin: 1rem;
 }
-
