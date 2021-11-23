@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Responsive Demo</title>
+    
+    <style>
+
+        /* Default / mobile-first styles */
+
+        body {
+            background: pink;
+            padding: 0; margin: 0;
+            font-size: 1.5rem;
+        }
+
+        h1, h2, h3, h4, h5, h6, p {
+            margin: 0;
+        }
+
+        header, main, footer {
+            width: 100%;
+            margin: 0 auto;
+            background: white;
+        }
+
+        header {
+            background: blue;
+            color: white;
+        }
+
+        .container {
+            width: auto;
+            padding: 40px;
+            margin: 0 auto;
+        }
+
+        /* Tablet width: approx 600-1000px */
+
+        @media screen and (min-width: 600px) and (max-width: 999px) {
+
+            body {
+                font-size: 2.5rem;
+            }
+
+            header {
+                background: green;
+            }
+
+            .container {
+                width: 500px;
+            }
+        }
+
+        @media screen and (min-width: 1000px) {
+
+            body {
+                font-size: 3.5rem;
+            }
+
+            header {
+                background: red;
+            }
+
+            .container {
+                width: 900px;
+            }
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Header</h1>
+        </header>
+        <main>
+            <div class="container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, deserunt! Velit, exercitationem inventore iusto eaque, illum eos provident consequatur doloremque sed veniam libero modi blanditiis error delectus magni, ipsum itaque?</p>
+            </div>
+        </main>
+        <footer>
+            <div class="container">
+                &copy; Algonquin College
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
