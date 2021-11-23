@@ -9,24 +9,28 @@
 </head>
 <body>
     <header>
-        <img src="images/logo.png" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="#" class="home">Home</a></li> <!-- Should be different from the rest of the list items ie. different colour -->
-                <li><a href="#" class="about">About Us</a></li>
-                <li><a href="#" class="services">Services</a></li>
-                <li><a href="#" class="team">Team</a></li>
-                <li><a href="#" class="contact">Contact</a></li>
-            </ul>
+        <div class="upper">
+            <img src="images/logo.png" alt="logo">
+            <nav>
+                <ul>
+                    <li><a href="#" class="home">Home</a></li> <!-- Should be different from the rest of the list items ie. different colour -->
+                    <li><a href="#" class="about">About Us</a></li>
+                    <li><a href="#" class="services">Services</a></li>
+                    <li><a href="#" class="team">Team</a></li>
+                    <li><a href="#" class="contact">Contact</a></li>
+                </ul>
+            </nav>
             <form>
                 <input type="text" placeholder="Search">
                 <button type="submit"><i class="fas fa-search"></i></button>
             </form>
-        </nav>
-        <div>
-            <h1>Welcome to Three Star Media</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, obcaecati. Optio expedita corrupti cumque quasi beatae. Voluptatibus, maiores dicta totam omnis, saepe veritatis delectus numquam incidunt facilis autem porro repellendus?</p>
-            <button type="button">Connect with us! &#9654</button>
+        </div>
+        <div class="intro">
+            <div class="intro-container">
+                <h1>Welcome to Three Star Media</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, obcaecati. Optio expedita corrupti cumque quasi beatae. Voluptatibus, maiores dicta totam omnis, saepe veritatis delectus numquam incidunt facilis autem porro repellendus?</p>
+                <button type="button">Connect with us! &#9654</button>
+            </div>
         </div>
     </header>
 
@@ -54,18 +58,75 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat ipsum quasi nisi laboriosam nulla reiciendis accusamus rem nam cupiditate, consequuntur facere soluta ratione ducimus dolores vitae! Distinctio fuga eum modi.</p>
                 <button type="button">Marketing Plans &#9654</button>
             </div>
+
+            <div class="video-production">
+                <img src="images/video.jpg" alt="video">
+                <h3>Video</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi eligendi velit, aperiam nulla facere reprehenderit excepturi ducimus ipsum laboriosam. Eveniet, facere odit? Veritatis quasi culpa sint. Nesciunt voluptatibus assumenda similique.</p>
+                <button type="button">Video Plans &#9654</button>
+            </div>
+
+            <div class="web-development">
+                <img src="images/web.jpg" alt="web">
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni quae voluptas molestiae voluptate dolores minus maiores adipisci sed illum temporibus, atque perspiciatis. Iure ea animi, voluptatem dolor beatae eos atque?</p>
+                <button type="button">Web Plans &#9654</button>
+            </div>
+
+            <div class="print">
+                <img src="images/print.jpg">
+                <h3>Print</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor iusto asperiores doloremque explicabo provident incidunt accusantium assumenda, inventore quis porro cupiditate veritatis fugiat expedita magnam alias, totam perspiciatis. Placeat, alias.</p>
+                <button type="button">Print Plans &#9654</button>
+            </div>
         </section> <!-- end section-services -->
 
         <section class="section-vision">
-
+            <img src="images/vision.jpg" alt="vision">
+            <h3>Our Vision</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur consequuntur possimus vitae maxime quam beatae iure adipisci veritatis, aspernatur ipsum aliquam odit magni exercitationem laboriosam autem eligendi sint necessitatibus sit.</p>
+            <button type="button">Learn More &#9654</button>
         </section> <!-- end section-vision -->
 
         <section class="section-team">
+            <h2>Our Team</h2>
 
+            <div class="john">
+                <img src="images/john.jpg" alt="john">
+                <h3>John Doe</h3>
+                <h4>CEO and Co-owner</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nemo maxime necessitatibus dolorem ab voluptatem sed, consequatur placeat dolore sequi doloribus in possimus ratione? In aperiam porro debitis hic quo!</p>
+            </div>
+            <div class="bob">
+                <img src="images/bob.jpg" alt="bob">
+                <h3>Bob Rite</h3>
+                <h4>CFO and Co-owner</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae, perspiciatis quisquam? Nesciunt perspiciatis asperiores atque mollitia aut, eligendi nemo esse aliquid quos aspernatur nihil vitae maxime expedita dolorum rem neque.</p>
+            </div>
         </section> <!-- end section-team -->
 
         <section class="section-contact">
-
+            <h2>Contact Us</h2>
+            <h3>Send us a message</h3>
+            <form>
+                <label for="fname">Full name</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" name="email"><br>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message"></textarea><br>
+                <input type="submit" value="Send">
+            </form>
+            <table>
+                <h3>Hours of operation</h3>
+                <tr>
+                    <th scope="col">Days</th>
+                    <th scope="col">Hours</th>
+                </tr>
+                <tr>
+                    <th scope="row">Monday - Friday</th>
+                </tr>
+            </table>
         </section> <!-- end section-contact -->
     </main>
 
