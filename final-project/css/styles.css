@@ -49,11 +49,32 @@ table {
 /* ==== MOBILE-FIRST STYLES ==== */
 body {
     background: white;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .upper {
     width: 100%;
     margin: 0 auto;
+}
+
+nav ul li a {
+    text-decoration: none;
+	color: #c58b22;
+	font-size: 18px;
+	display: block;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.logo {
+	background: #c58b22;
+	width: auto;
+}
+
+.current a {
+	color: #222222;
+	background: #c58b22;
 }
 
 header {

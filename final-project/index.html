@@ -13,29 +13,33 @@
 </head>
 <body>
     <header>
-        <div class="upper">
-            <img src="images/logo.png" alt="Three Star Media">
-            <nav>
+        <nav> <!-- modified via teacher's code -->
+            <div class="upper">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Three Star Media">
+                </div>
                 <ul>
-                    <li><a href="#" class="home">Home</a></li> <!-- Should be different from the rest of the list items ie. different colour -->
+                    <li class="current"><a href="#">Home</a></li> <!-- Should be different from the rest of the list items ie. different colour -->
                     <li><a href="#" class="about">About Us</a></li>
                     <li><a href="#" class="services">Services</a></li>
                     <li><a href="#" class="team">Team</a></li>
                     <li><a href="#" class="contact">Contact</a></li>
                 </ul>
-            </nav>
-            <form>
-                <input type="text" placeholder="Search">
-                <button type="submit"><i class="fas fa-search"></i></button>
-            </form>
-        </div>
+                <form>
+                    <input type="text" placeholder="Search">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+            </div> <!-- end upper -->
+        </nav>
+
+        <!-- =========== INTRO =========== -->
         <div class="intro">
             <div class="intro-container">
                 <img src="images/main-banner.jpg" alt="main-banner">
                 <h1>Welcome to Three Star Media</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, obcaecati. Optio expedita corrupti cumque quasi beatae. Voluptatibus, maiores dicta totam omnis, saepe veritatis delectus numquam incidunt facilis autem porro repellendus?</p>
                 <button type="button">Connect with us! &#9654;</button>
-            </div>
+            </div> <!-- end intro-container -->
         </div>
     </header>
 
