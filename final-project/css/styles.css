@@ -41,3 +41,40 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* ======================================= */
+/* ============== MY STYLES ============== */
+/* ======================================= */
+
+/* ==== MOBILE-FIRST STYLES ==== */
+body {
+    background: white;
+}
+
+.upper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background: #222222;
+    color: #c58b22;
+    padding: 14px; 
+}
+
+/* ==== This just sets the width for accuracy to the mock-up ==== */
+/* Don't put anything else in this media query! */
+
+@media screen and (min-width: 706px){
+    .upper {
+        width: 706px;
+    }
+}
+
+/* ==== DESKTOP STYLES ==== */
+
+@media screen and (min-width: 1200px){
+    .upper {
+        width: 1200px;
+    }
+}
