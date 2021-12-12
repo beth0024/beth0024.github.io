@@ -77,17 +77,39 @@ nav ul li a {
 	background: #c58b22;
 }
 
+.search-bar {
+	text-align: center;
+	font-size: 18px;
+}
+
+.intro {
+	background-image: url(../images/main-banner.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.intro-container {
+	background: rgba(0,0,0,0.5);
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+ h1 {
+	font-size: 71px;
+ }
+
 header {
     background: #222222;
-    color: #c58b22;
-    padding: 14px; 
+    padding: 14px;
 }
 
 /* ==== This just sets the width for accuracy to the mock-up ==== */
 /* Don't put anything else in this media query! */
 
-@media screen and (min-width: 706px){
-    .upper {
+@media screen and (min-width: 760px){
+    .upper, .container {
         width: 706px;
     }
 }
@@ -95,7 +117,7 @@ header {
 /* ==== DESKTOP STYLES ==== */
 
 @media screen and (min-width: 1200px){
-    .upper {
+    .upper, .container {
         width: 1200px;
     }
 }
